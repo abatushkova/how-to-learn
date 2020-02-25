@@ -6,15 +6,15 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  color: #000;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
 }
 
 /* header */
 .header {
+  position: relative;
   display: flex;
   align-items: center;
-  position: relative;
   overflow: hidden;
   height: 100vh;
   min-height: 600px;
@@ -50,8 +50,8 @@
 
 .header__link:focus,
 .header__link:hover {
-  color: #fff;
   background-color: #1f1f1f;
+  color: #fff;
   outline: none;
 }
 
@@ -60,23 +60,23 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  height: 608px;
   width: 765px;
+  height: 608px;
 }
 
 .header__square-pic {
   position: absolute;
   top: 64px;
   right: 0;
-  height: 568px;
   width: 568px;
+  height: 568px;
   background-color: #2f80ed;
 }
 
 /* logo */
 .logo {
-  height: 32px;
   width: 183px;
+  height: 32px;
 }
 
 .logo_place_header {
@@ -196,9 +196,9 @@
 /* section feinman */
 .feinman {
   position: relative;
-  min-height: 890px;
+  /* box-sizing: border-box; */
+  height: 790px;
   padding-top: 100px;
-  box-sizing: border-box;
   background-image: url(../images/feinman.png);
   background-color: #f2f2f2;
   background-position: left bottom;
@@ -235,18 +235,18 @@
 
 .feinman__link:focus,
 .feinman__link:hover {
-  color: #2f80ed;
   background-color: #1f1f1f;
+  color: #2f80ed;
   outline: none;
 }
 
 /* section kaufman */
 .kaufman {
   position: relative;
-  overflow: hidden;
   z-index: 0;
-  padding: 90px 0;
+  overflow: hidden;
   box-sizing: border-box;
+  padding: 90px 0;
   background-color: #1f1f1f;
 }
 
@@ -266,15 +266,15 @@
 /* footer */
 .footer {
   padding: 60px 0 40px;
-  color: #fff;
   background-color: #1f1f1f;
+  color: #fff;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  min-height: 250px;
   width: 90%;
+  min-height: 250px;
   margin: 0 auto;
 }
 
@@ -301,8 +301,8 @@
 }
 
 .footer__column-links {
-  margin: 20px 0 16px;
   padding: 0;
+  margin: 20px 0 16px;
   list-style: none;
   font-size: 18px;
   line-height: 30px;
