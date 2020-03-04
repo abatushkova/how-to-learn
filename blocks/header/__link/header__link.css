@@ -1,0 +1,15 @@
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  -o-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  will-change: opacity;
+}
+
+.header__link:focus,
+.header__link:hover {
+  opacity: .6;
+  outline: none;
+}

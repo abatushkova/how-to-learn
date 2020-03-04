@@ -1,0 +1,21 @@
+.feinman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: inherit;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  -o-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  will-change: opacity;
+}
+
+.feinman__link:focus,
+.feinman__link:hover {
+  opacity: .5;
+  outline: none;
+}

@@ -1,0 +1,18 @@
+/* block cards */
+@import url('./__item/cards__item.css');
+@import url('./__img/cards__img.css');
+@import url('./__title/cards__title.css');
+@import url('./__description/cards__description.css');
+
+.cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 240px 100px 240px 100px 240px;
+  grid-template-columns: repeat(3, 240px);
+  grid-gap: 60px 100px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 920px;
+  margin: 60px auto 0;
+}
