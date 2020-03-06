@@ -11,5 +11,4 @@
 .footer__column-link:focus,
 .footer__column-link:hover {
   opacity: .6;
-  outline: none;
 }

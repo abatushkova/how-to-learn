@@ -11,5 +11,4 @@
 .header__link:focus,
 .header__link:hover {
   opacity: .6;
-  outline: none;
 }

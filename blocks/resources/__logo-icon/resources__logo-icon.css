@@ -1,11 +1,6 @@
-.khan__buy-link {
-  display: inline-block;
-  vertical-align: top;
-  color: #2f80ed;
-  font-size: 30px;
-  line-height: 42px;
-  font-weight: 400;
-  text-decoration: none;
+.resources__logo-icon {
+  max-width: 100%;
+  height: 100%;
   opacity: 1;
   -webkit-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
   -o-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
@@ -13,7 +8,7 @@
   will-change: opacity;
 }
 
-.khan__buy-link:focus,
-.khan__buy-link:hover {
+.resources__logo-link:focus .resources__logo-icon,
+.resources__logo-link:hover .resources__logo-icon {
   opacity: .6;
 }

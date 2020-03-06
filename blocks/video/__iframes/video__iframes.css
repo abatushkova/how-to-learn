@@ -6,9 +6,8 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 1050px;
-  margin: 50px auto -50px;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  margin: 50px 0 -50px;
 }

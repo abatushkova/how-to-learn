@@ -21,3 +21,4 @@
 @import url('./blocks/resources/resources.css');
 @import url('./blocks/footer/footer.css');
 @import url('./blocks/rotation/rotation.css');
+@import url('./blocks/rotation/_figure/rotation_figure_square.css');
