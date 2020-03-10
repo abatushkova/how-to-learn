@@ -1,0 +1,10 @@
+/* form */
+
+@import url('./__container/form__container.css');
+@import url('./__input-container/form__input-container.css');
+@import url('./__input-container/_type/form__input-container_type_user.css');
+@import url('./__input-container/_type/form__input-container_type_text.css');
+@import url('./__label/form__label.css');
+@import url('./__item/form__item.css');
+@import url('./__item/_type/form__item_type_comment-text.css');
+@import url('./__button/form__button.css');
