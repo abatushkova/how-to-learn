@@ -5,7 +5,7 @@
   z-index: -1;
   width: 877px;
   height: 877px;
-  background-image: url('../../../images/triangle.svg');
+  background-image: url('./triangle.svg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 877px 877px;
