@@ -1,0 +1,4 @@
+.form__input-container_type_text {
+  -ms-flex-positive: 1;
+    flex-grow: 1;
+}

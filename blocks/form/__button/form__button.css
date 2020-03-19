@@ -1,0 +1,23 @@
+.form__button {
+  display: block;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  margin-left: auto;
+  background-color: #2f80ed;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.15;
+  font-weight: 600;
+  opacity: 1;
+  -webkit-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  -o-transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  transition: opacity .15s cubic-bezier(.0,.0,.2,1) 0s;
+  will-change: opacity;
+}
+
+.form__button:focus,
+.form__button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
