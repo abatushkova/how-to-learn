@@ -9,7 +9,7 @@
   display: grid;
   -ms-grid-columns: 240px 100px 240px 100px 240px;
   grid-template-columns: repeat(3, 240px);
-  grid-gap: 60px 100px;
+  gap: 60px 100px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
