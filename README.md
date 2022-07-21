@@ -11,5 +11,3 @@ How-to-learn contains modern and efficient technics to change and improve your l
 - add beautiful google fonts
 - add some more educational videos
 - create form for users comments
-## Credits
-Alena Batushkova - junior web developer
